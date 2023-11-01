@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Movie } from '../services/movie';
-import { fetchMoviePlot, fetchMovies } from '../services/api';
+import { fetchMovies } from '../services/api';
 import SearchBar from './SearchBar';
 import SearchResults from './SearchResults';
 
